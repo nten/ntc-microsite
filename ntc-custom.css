@@ -397,4 +397,8 @@ display: none;
 {
     display: none;
 }
-
+#Logo, #LeftToLogo, #RightToLogo
+{
+    min-height: 0px;
+    width: auto;
+}
