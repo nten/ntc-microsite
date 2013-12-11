@@ -392,6 +392,7 @@ display: none;
 {
     width: 100%;
     max-width: 1024px;
+    min-width: 350px;
 }
 #MPSlogan
 {
