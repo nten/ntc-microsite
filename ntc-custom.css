@@ -377,3 +377,19 @@ display: none;
 #MainCopy_ctl09_ucPermissionJoin_lnkJoin_CSSLinkButton1 {
 	margin-bottom:10px;
 }
+
+.MPContentAreaHome
+{
+    width: 100%;
+}
+
+#MPOuter 
+{
+    width: 100%;
+}
+
+#MPOuterMost
+{
+    width: 100%;
+    max-width: 1024px;
+}
