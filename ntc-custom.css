@@ -406,6 +406,8 @@ display: none;
 .HLLandingControl h2
 {
     height: auto;
+    text-align: center;
+    padding: 0.5em;
 }
 img
 {
