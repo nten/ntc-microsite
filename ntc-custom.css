@@ -400,7 +400,12 @@ display: none;
 }
 #MPSlogan
 {
-    display: none;
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
 }
 #Logo, #LeftToLogo, #RightToLogo
 {
@@ -425,4 +430,11 @@ body
 #Logo img
 {
     border: none;
+}
+@media reader
+{
+    #MPSlogan
+    {
+        display: inline;
+    }
 }
