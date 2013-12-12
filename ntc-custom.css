@@ -378,6 +378,10 @@ display: none;
 	margin-bottom:10px;
 }
 
+.MPContentArea
+{
+    width: 100%;
+}
 .MPContentAreaHome
 {
     width: 100%;
