@@ -418,6 +418,10 @@ display: none;
     text-align: center;
     padding: 0.5em;
 }
+.HLLandingControl a
+{
+    font-size: 1em;
+}
 img
 {
     max-width: 100%;
