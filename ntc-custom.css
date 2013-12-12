@@ -422,3 +422,7 @@ body
 {
     font-size: 100%;
 }
+#Logo img
+{
+    border: none;
+}
