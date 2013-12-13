@@ -386,7 +386,10 @@ display: none;
 {
     width: 100%;
 }
-
+#MPHeader
+{
+    min-height:145px;
+}
 #MPOuter 
 {
     width: 100%;
