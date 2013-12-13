@@ -447,3 +447,7 @@ body
     position: absolute;
     top: 5px;
 }
+.HLWelcomeHeader .Content
+{
+    margin-bottom: 0.3em;
+}
