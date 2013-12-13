@@ -459,7 +459,8 @@ body
 #Logo
 {
     position: relative;
-    top: -10px;
+    top: -15px;
+    left: -5px;
 }
 .HLWelcomeHeader .Content
 {
@@ -474,4 +475,12 @@ body
 {
     height: auto;
     width: auto;
+}
+#MPAuxNav
+{
+    z-index: 100;
+}
+#ButtonBarMenu ul
+{
+    background-color: #03428E;
 }
