@@ -473,3 +473,8 @@ body
 {
     background-color: #03428E;
 }
+table
+{
+    border-collapse: separate; 
+    border spacing: 5px;
+}
