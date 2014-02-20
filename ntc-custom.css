@@ -410,6 +410,11 @@ display: none;
     height:1px;
     overflow:hidden;
 }
+#MPSearchBlock
+{
+    margin-top: 0em;
+    padding-top: 0em;
+}
 #Logo, #LeftToLogo, #RightToLogo
 {
     min-height: 0px !important;
