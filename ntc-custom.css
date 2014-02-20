@@ -433,6 +433,8 @@ img
 body
 {
     font-size: 100%;
+    font-family:  "Lucida Grande",Tahoma,"Lucida Sans Regular","Lucida Sans Unicode",Verdana,Arial,sans-serif;
+    line-height: 1.5;
 }
 #Logo img
 {
