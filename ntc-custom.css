@@ -480,3 +480,6 @@ table
     border-collapse: separate; 
     border-spacing: 1em;
 }
+#MPButtonBar {
+  height: 42px !important;
+}
