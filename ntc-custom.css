@@ -415,6 +415,10 @@ display: none;
     margin-top: 0em;
     padding-top: 0em;
 }
+#MPSearchBlock table
+{
+    border-collapse:collapse;
+}
 #Logo, #LeftToLogo, #RightToLogo
 {
     min-height: 0px !important;
