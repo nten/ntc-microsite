@@ -5,15 +5,6 @@
         padding-bottom: 30px;
 }
 
-
-/* Brendan - Shifting invite others to join link up
-#MainCopy_ctl11_Invite {
-position:relative;
-top:-36px;
-left:60px;
-}
-
- */
 /* Brendan - Move admin site edit bar to upper left */
 .AboveContentBarLeft {
 	position:fixed;
@@ -257,12 +248,6 @@ h2 {
 	-webkit-border-radius:5px;
 }
 
-/* Catherine - Bold "Post Message" in right column in Discussion thread 
-#MainCopy_ctl07_ucMessageList_rptMessageList_PostMessageLink_0,#MainCopy_ctl07_ucMessageList_rptMessageList_PostMessageLink_1,#MainCopy_ctl07_ucMessageList_rptMessageList_PostMessageLink_2,#MainCopy_ctl07_ucMessageList_rptMessageList_PostMessageLink_3,#MainCopy_ctl07_ucMessageList_rptMessageList_PostMessageLink_4,#MainCopy_ctl07_ucMessageList_rptMessageList_PostMessageLink_5,#MainCopy_ctl07_ucMessageList_rptMessageList_PostMessageLink_6,#MainCopy_ctl07_ucMessageList_rptMessageList_PostMessageLink_7,#MainCopy_ctl07_ucMessageList_rptMessageList_PostMessageLink_8,#MainCopy_ctl07_ucMessageList_rptMessageList_PostMessageLink_9 {
-	font-weight:700;
-}
-*/
-
 /* Catherine - revised*/
 
 #MessageListContainer .MessageMenuList li:nth-child(5) a{
@@ -441,7 +426,7 @@ img
 }
 body
 {
-    font-size: 100%;
+    font-size: 12px;
     font-family:  "Lucida Grande",Tahoma,"Lucida Sans Regular","Lucida Sans Unicode",Verdana,Arial,sans-serif;
     line-height: 1.5;
 }
