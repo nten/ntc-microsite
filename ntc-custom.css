@@ -1,3 +1,9 @@
+html
+{
+    font-size: 100%;
+}
+
+
 /*Jason Resetting of Join Link*/
 .JoinLeaveLink #hl-csslinkbutton {
 	padding-top:10px;
