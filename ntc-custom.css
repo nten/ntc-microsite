@@ -1,4 +1,4 @@
-html
+body
 {
     font-size: 100%;
 }
@@ -485,7 +485,7 @@ table
 
 @media (min-width: 40rem)
 {
-    html 
+    body
     { 
         font-size: 90%;
     }
