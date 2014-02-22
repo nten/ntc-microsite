@@ -1,54 +1,43 @@
 body {
     font-size: 100%;}
 
-
-/*Jason Resetting of Join Link*/
 .JoinLeaveLink #hl-csslinkbutton {
     float: left;
     padding-bottom: 30px;
     padding-top:10px;}
 
-/* Brendan - Move admin site edit bar to upper left */
 .AboveContentBarLeft {
     background-color: #fff;
     left: 10px;
     position: fixed;
     top: 0;}
 
-/* Brendan - Move Leave community to left side in effort to balance out recent activity view when in a group*/
 #MainCopy_ctl09_ucPermissionJoin_lnkLeave {
     float: right;
     left: -100px;
     position: relative;}
 
-/* Brendan - Move Join Community Button Down slightly*/
 #MainCopy_ctl09_ucPermissionJoin_lnkJoin_CSSLinkButton1 {
     position: relative;
     top: 50px;}
 
-/*Brendan - Hiding search specific sites and blogs as a choice under specific */
 #MainCopy_ctl01_DivMicrositeContentHeader {
     display: none;}
 
-/*Karl - Reformat Modal Popup Box */
 .ModalPopupPanel {
     padding: 10px;
     border-radius: 5px;}
 
-/*Karl - Hide Add Session option when adding events */
 #MainCopy_ctl01_SessionsDIV {
     display: none;}
 
-/*Karl - Hide Status option when adding events */
 #MainCopy_ctl01_StatusRadioButtonList {
     display: none;}
 
-/*Brendan - Hide email address edit when joining group */
 #MainCopy_ctl01_lstCommunityList_join_0_hlcommonSubscribe_0_EmailEditSection_0,
 #MainCopy_ctl09_ucPermissionJoin_hlcommonSubscribe_EmailEditSection {
     display: none;}
 
-/*Brendan - Adding white BG to links at top of page */
 #AuxMenu {
     background-color: #fff;
     -webkit-border-bottom-left-radius: 5px;
@@ -60,7 +49,6 @@ body {
     position: relative;
     top: -7px;}
 
-/*Karl - Hiding OpenToValue and OpenToPrompt */
 .OpenToPrompt,
 .OpenToValue {
     display: none;}
@@ -68,37 +56,29 @@ body {
 p, div {
     font-family: Lucida Sans, sans-serif;}
 
-/*Brendan - removing Highest Scoring from Library tabs */
 .TabBlock {
     display: none;}
 
-/*Brendan - Hiding event where */
 .EventWhereLbl {
     display: none;}
 
-/* Brendan - Hiding owner change in library creation */
 #MainCopy_ctl01_OwnerPanel {
     display: none;}
 
-/*Brendan - Hiding Add event button to event list */
 #MainCopy_ctl01_AddEvent_CSSHyperLink1 {
     display: none;}
 
-/* Brendan - Adding BG image to Getting started*/
 .gettingstarted .Content {
     background-image: url(http://www.nten.org/sites/default/files/13ntccongregation3_0.jpg);
     background-position: 0 0;
     background-repeat: repeat-x;}
 
-/* Brendan - Hiding Printer friendly button */
 #PrinterFriendly {
     display: none;}
 
-/*Brendan - Removing registration dates from event creation */
 #MainCopy_ctl01_RegistrationSettingsDiv {
     display: none;}
 
-/*Brendan fixing h2 colors */
 h2 {
     background-color: #9ecc3b;
     border: 1px solid #9ecc3b;
@@ -115,7 +95,6 @@ h2 {
     padding: 7px 0 6px 10px;
     text-indent: 5px;}
 
-/*Brendan Putting proper borders around HTML Content Boxes */
 .HLLandingControl div.HtmlContent,
 .HLLandingControl div.RSSReader {
     background-color:#FFF;
@@ -123,11 +102,6 @@ h2 {
     border-top:0 solid #777;
     margin-bottom:10px;}
 
-/* Brendan - Attempt at mobile friendly site formatting - breaks if not using standard page format
-@media screen and (max-width: 960px) {
-.twocolumn, div#MPOuter, div.MPContentAreaHome, .MPContentAreaHome, div.onecolumn, #MPOuterMost {width:100% !important; float:none !important }
-}
-*/
 #ButtonBarMenu {
     margin-top:0;}
 
@@ -142,7 +116,6 @@ h2 {
     background-repeat:repeat-x;
     background-color:#FFF;}
 
-/** Hide Border of Slide Deck **/
 .skin-slidedeck dl.slidedeck > dd {
     border-right:0!important;
     background:none!important;}
@@ -153,18 +126,14 @@ h2 {
     box-shadow:none!important;
     padding:0!important;}
 
-/** End of Hide Border of Slide Deck**/
-/** To remove the padding to the left and right of the slide deck so it is flush with the side of the website, using the below:**/
 .skin-slidedeck {
     margin-left:10px;}
 
-/* Brendan - Change Library Folder browser H1's */
 .FolderView h1 {
     background-color:#9ecc3b;
     color:#FFF;
     text-indent:10px;}
 
-/* Brendan - Login Button Controls */
 .HLWelcome .Login a:link,.HLWelcome .Login a:visited {
     color:#FFF;
     font-weight:700;
@@ -177,7 +146,6 @@ h2 {
     border-radius:10px;
     text-decoration:none;}
 
-/* Brendan - Change Welcome box H1 Colors */
 #Welcome_Content h1 {
     background-color:#FFF;
     color:#ACCB4A;}
@@ -186,12 +154,10 @@ h2 {
     background-color:#9ecc3b;
     color:#FFF;}
 
-/* Brendan - Moving search button (can't remember which) */
 #MainCopy_ctl03_WholeSearch {
     float:right;
     margin-right:10px;}
 
-/* Brendan - Shift Blog post body down slightly to avoid button overlap */
 #MainCopy_ctl11_ContentPanel {
     position:relative;
     top:10px;}
@@ -199,17 +165,14 @@ h2 {
 .Section3 {
     padding-left:5px;}
 
-/* Brendan - Centering Profile photos */
 #Welcome_Details_ProfilePic_0 {
     display:block;
     margin-left:auto;
     margin-right:auto;}
 
-/* Brendan - Color border on community member header*/
 .drItemSubHeader {
     border:1px solid #9ecc3b;}
 
-/* Brendan - Rounding Logo corners */
 #Logo img {
     border:1px solid #fff;
     border-radius:5px;
@@ -217,18 +180,14 @@ h2 {
     -khtml-border-radius:5px;
     -webkit-border-radius:5px;}
 
-/* Catherine - revised*/
-
 #MessageListContainer .MessageMenuList li:nth-child(5) a{
     font-weight:bold;}
 
-/*Brendan - Moving Create new library button to the right */
 #MainCopy_ctl09_CommunityButton_CSSLinkButton1 {
     float:right;
     top:10px;
     right:10px;}
 
-/*Brendan - tweaking button non-hover color 8*/
 a.actionButton,#hl-csslinkbutton a.actionButton,a.actionButton {
     background:#9ecc3b;
     background-image:-moz-linear-gradient(center top,#439200,#439200);
@@ -238,13 +197,11 @@ a.actionButton,#hl-csslinkbutton a.actionButton,a.actionButton {
     background-image:-moz-linear-gradient(center top,#439200,#439200);
     color:#EBEBEB;}
 
-/* Catherine - change the hover color for all green buttons to dark green */
 a.actionButton:hover,#hl-csslinkbutton a.actionButton:hover {
     background-color:#c4ee6f;
     background-image:-moz-linear-gradient(center top,#c4ee6f,#c4ee6f);
     color:#EBEBEB;}
 
-/*Brendan - Removing unnecessary h2 in discussions tab*/
 #MainCopy_ctl09_divLastMsg {
     display:none;}
 
@@ -253,7 +210,6 @@ a.actionButton:hover,#hl-csslinkbutton a.actionButton:hover {
     float:right;
     clear:both;}
 
-/*Brendan - Attempt at coloring border of menu dropdowns */
 #ButtonBarMenu ul {
     border:1px solid #03428E;}
 
@@ -263,7 +219,6 @@ level2 dynamic #MPButtonBar {
 li.level2 dynamic {
     background-color:#95a3c8;}
 
-/*Brendan - removing MenuBarUnderline */
 .MenuBarUnderline {
     color:#FFF;
     display:none;}
@@ -271,28 +226,23 @@ li.level2 dynamic {
 #gallery,#galleriaDescContainerDIV {
     display:none;}
 
-/*Brendan-Change color of code of conduct title*/
 h3 {
     color:#777;}
 
-/*Brendan - Moving Create event button in event tab to not float out in space */
 #MainCopy_ctl05_CommunityButton_CSSLinkButton1 {
     position:relative;
     float:right;
     margin-top:20px;
     left:224px;}
 
-/*Brendan - Fix alignment of library entry button */
 #MainCopy_ctl05_CommunityButton_CSSLinkButton1 {
     float:right;
     margin-top:30px;
     margin-right:-10px;}
 
-/* Catherine - remove Blogs checkbox in Advanced Search */
 #MainCopy_ctl01_ProductList tr:nth-child(1) td:nth-child(2) {
     display:none;}
 
-/* Catherine - bottom margin for the Join Community button */
 #MainCopy_ctl09_ucPermissionJoin_lnkJoin_CSSLinkButton1 {
     margin-bottom:10px;}
 
@@ -360,7 +310,7 @@ body {
 #ButtonBarMenu ul{
     background-color: #03428E;}
 table{
-    border-collapse: separate; 
+    border-collapse: separate;
     border-spacing: 1em;}
 #MPButtonBar {
     height: 42px !important;}
