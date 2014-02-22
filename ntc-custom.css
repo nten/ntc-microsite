@@ -97,154 +97,154 @@ h2 {
 
 .HLLandingControl div.HtmlContent,
 .HLLandingControl div.RSSReader {
-    background-color:#FFF;
-    border:1px solid #777;
-    border-top:0 solid #777;
-    margin-bottom:10px;}
+    background-color: #FFF;
+    border: 1px solid #777;
+    border-top: 0 solid #777;
+    margin-bottom: 10px;}
 
 #ButtonBarMenu {
-    margin-top:0;}
+    margin-top: 0;}
 
 .profileControlSmall h2 {
-    width:500px!important;}
+    width: 500px !important;}
 
 .profileControlSmall {
-    width:510px!important;}
+    width: 510px!important;}
 
 .bodyBackground {
-    background-image:url(http://www.nten.org/sites/default/files/background.jpg);
-    background-repeat:repeat-x;
-    background-color:#FFF;}
+    background-image: url(http://www.nten.org/sites/default/files/background.jpg);
+    background-repeat: repeat-x;
+    background-color: #fff;}
 
 .skin-slidedeck dl.slidedeck > dd {
-    border-right:0!important;
-    background:none!important;}
+    border-right: 0 !important;
+    background: none !important;}
 
 .skin-slidedeck {
-    background:none repeat scroll 0 0 transparent!important;
-    border:0 none!important;
-    box-shadow:none!important;
-    padding:0!important;}
+    background: none repeat scroll 0 0 transparent!important;
+    border: 0 none !important;
+    box-shadow: none !important;
+    padding: 0 !important;}
 
 .skin-slidedeck {
-    margin-left:10px;}
+    margin-left: 10px;}
 
 .FolderView h1 {
-    background-color:#9ecc3b;
-    color:#FFF;
-    text-indent:10px;}
+    background-color: #9ecc3b;
+    color: #fff;
+    text-indent: 10px;}
 
 .HLWelcome .Login a:link,.HLWelcome .Login a:visited {
-    color:#FFF;
-    font-weight:700;
-    font-size:16px;
-    font-variant:small-caps;
-    background:#9ecc3b;
-    padding:10px;
-    top:-30px;
-    position:relative;
-    border-radius:10px;
-    text-decoration:none;}
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    font-variant: small-caps;
+    background: #9ecc3b;
+    padding: 10px;
+    top: -30px;
+    position: relative;
+    border-radius: 10px;
+    text-decoration: none;}
 
 #Welcome_Content h1 {
-    background-color:#FFF;
-    color:#ACCB4A;}
+    background-color: #fff;
+    color: #ACCB4A;}
 
 #PageTitleH1 {
-    background-color:#9ecc3b;
-    color:#FFF;}
+    background-color: #9ecc3b;
+    color: #fff;}
 
 #MainCopy_ctl03_WholeSearch {
-    float:right;
-    margin-right:10px;}
+    float: right;
+    margin-right: 10px;}
 
 #MainCopy_ctl11_ContentPanel {
-    position:relative;
-    top:10px;}
+    position: relative;
+    top: 10px;}
 
 .Section3 {
-    padding-left:5px;}
+    padding-left: 5px;}
 
 #Welcome_Details_ProfilePic_0 {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
 
 .drItemSubHeader {
-    border:1px solid #9ecc3b;}
+    border: 1px solid #9ecc3b;}
 
 #Logo img {
-    border:1px solid #fff;
-    border-radius:5px;
-    -moz-border-radius:5px;
-    -khtml-border-radius:5px;
-    -webkit-border-radius:5px;}
+    border: 1px solid #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;}
 
 #MessageListContainer .MessageMenuList li:nth-child(5) a{
-    font-weight:bold;}
+    font-weight: bold;}
 
 #MainCopy_ctl09_CommunityButton_CSSLinkButton1 {
-    float:right;
-    top:10px;
-    right:10px;}
+    float: right;
+    top: 10px;
+    right: 10px;}
 
 a.actionButton,#hl-csslinkbutton a.actionButton,a.actionButton {
-    background:#9ecc3b;
-    background-image:-moz-linear-gradient(center top,#439200,#439200);
-    color:#FFF;}
+    background: #9ecc3b;
+    background-image: -moz-linear-gradient(center top,#439200,#439200);
+    color: #fff;}
 
 #MainCopy_ctl09_lnkPostMessage_CSSHyperLink1:hover {
-    background-image:-moz-linear-gradient(center top,#439200,#439200);
-    color:#EBEBEB;}
+    background-image: -moz-linear-gradient(center top,#439200,#439200);
+    color: #ebebeb;}
 
 a.actionButton:hover,#hl-csslinkbutton a.actionButton:hover {
-    background-color:#c4ee6f;
-    background-image:-moz-linear-gradient(center top,#c4ee6f,#c4ee6f);
-    color:#EBEBEB;}
+    background-color: #c4ee6f;
+    background-image: -moz-linear-gradient(center top,#c4ee6f,#c4ee6f);
+    color: #ebebeb;}
 
 #MainCopy_ctl09_divLastMsg {
-    display:none;}
+    display: none;}
 
 #MainCopy_ctl05_WholeSearch {
-    position:relative;
-    float:right;
-    clear:both;}
+    position: relative;
+    float: right;
+    clear: both;}
 
 #ButtonBarMenu ul {
-    border:1px solid #03428E;}
+    border: 1px solid #03428E;}
 
 level2 dynamic #MPButtonBar {
-    border:2px solid #03428E;}
+    border: 2px solid #03428E;}
 
 li.level2 dynamic {
-    background-color:#95a3c8;}
+    background-color: #95a3c8;}
 
 .MenuBarUnderline {
-    color:#FFF;
-    display:none;}
+    color: #fff;
+    display: none;}
 
 #gallery,#galleriaDescContainerDIV {
-    display:none;}
+    display: none;}
 
 h3 {
-    color:#777;}
+    color: #777;}
 
 #MainCopy_ctl05_CommunityButton_CSSLinkButton1 {
-    position:relative;
-    float:right;
-    margin-top:20px;
-    left:224px;}
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    left: 224px;}
 
 #MainCopy_ctl05_CommunityButton_CSSLinkButton1 {
-    float:right;
-    margin-top:30px;
-    margin-right:-10px;}
+    float: right;
+    margin-top: 30px;
+    margin-right: -10px;}
 
 #MainCopy_ctl01_ProductList tr:nth-child(1) td:nth-child(2) {
-    display:none;}
+    display: none;}
 
 #MainCopy_ctl09_ucPermissionJoin_lnkJoin_CSSLinkButton1 {
-    margin-bottom:10px;}
+    margin-bottom: 10px;}
 
 .MPContentArea {
     width: 100%;}
@@ -253,25 +253,27 @@ h3 {
     width: 100%;}
 
 #MPimage {
-    min-height:150px;}
+    min-height: 150px;}
 #MPOuter {
     width: 100%;}
 
 #MPOuterMost {
     width: 100%;
-    max-width: 982px;    min-width: 450px;}
+    max-width: 982px;
+    min-width: 450px;}
+
 #MPSlogan {
-    position:absolute;
-    left:-10000px;
-    top:auto;
-    width:1px;
-    height:1px;
-    overflow:hidden;}
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;}
 #MPSearchBlock {
     margin-top: 0em;
     padding-top: 0em;}
 #MPSearchBlock table {
-    border-collapse:collapse;}
+    border-collapse: collapse;}
 
 #Logo,
 #LeftToLogo,
