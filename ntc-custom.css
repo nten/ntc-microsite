@@ -1,492 +1,374 @@
-body
-{
-    font-size: 100%;
-}
+body {
+    font-size: 100%;}
 
 
 /*Jason Resetting of Join Link*/
 .JoinLeaveLink #hl-csslinkbutton {
-	padding-top:10px;
-	float:left;
-        padding-bottom: 30px;
-}
+    float: left;
+    padding-bottom: 30px;
+    padding-top:10px;}
 
 /* Brendan - Move admin site edit bar to upper left */
 .AboveContentBarLeft {
-	position:fixed;
-	top:0;
-	left:10px;
-	background-color:#FFF;
-}
+    background-color: #fff;
+    left: 10px;
+    position: fixed;
+    top: 0;}
 
 /* Brendan - Move Leave community to left side in effort to balance out recent activity view when in a group*/
 #MainCopy_ctl09_ucPermissionJoin_lnkLeave {
-	position:relative;
-	float:right;
-	left:-100px;
-}
+    float: right;
+    left: -100px;
+    position: relative;}
 
 /* Brendan - Move Join Community Button Down slightly*/
 #MainCopy_ctl09_ucPermissionJoin_lnkJoin_CSSLinkButton1 {
-	position:relative;
-	top:50px;
-}
+    position: relative;
+    top: 50px;}
 
 /*Brendan - Hiding search specific sites and blogs as a choice under specific */
 #MainCopy_ctl01_DivMicrositeContentHeader {
-	display:none;
-}
+    display: none;}
 
 /*Karl - Reformat Modal Popup Box */
 .ModalPopupPanel {
-	padding:10px;
-	border-radius:5px;
-}
+    padding: 10px;
+    border-radius: 5px;}
 
 /*Karl - Hide Add Session option when adding events */
 #MainCopy_ctl01_SessionsDIV {
-	display:none;
-}
+    display: none;}
 
 /*Karl - Hide Status option when adding events */
 #MainCopy_ctl01_StatusRadioButtonList {
-	display:none;
-}
+    display: none;}
 
 /*Brendan - Hide email address edit when joining group */
-#MainCopy_ctl01_lstCommunityList_join_0_hlcommonSubscribe_0_EmailEditSection_0,#MainCopy_ctl09_ucPermissionJoin_hlcommonSubscribe_EmailEditSection {
-	display:none;
-}
+#MainCopy_ctl01_lstCommunityList_join_0_hlcommonSubscribe_0_EmailEditSection_0,
+#MainCopy_ctl09_ucPermissionJoin_hlcommonSubscribe_EmailEditSection {
+    display: none;}
 
 /*Brendan - Adding white BG to links at top of page */
 #AuxMenu {
-	background-color:#FFF;
-	position:relative;
-	top:-7px;
-	-webkit-border-bottom-left-radius:5px;
-	-moz-border-radius-bottomleft:5px;
-	border-bottom-left-radius:5px;
-	-webkit-border-bottom-right-radius:5px;
-	-moz-border-radius-bottomright:5px;
-	border-bottom-right-radius:5px;
-}
+    background-color: #fff;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    top: -7px;}
 
 /*Karl - Hiding OpenToValue and OpenToPrompt */
-.OpenToValue,.OpenToPrompt {
-	display:none;
-}
+.OpenToPrompt,
+.OpenToValue {
+    display: none;}
 
-p,div {
-	font-family:Lucida Sans,sans-serif;
-}
+p, div {
+    font-family: Lucida Sans, sans-serif;}
 
 /*Brendan - removing Highest Scoring from Library tabs */
 .TabBlock {
-	display:none;
-}
+    display: none;}
 
 /*Brendan - Hiding event where */
 .EventWhereLbl {
-	display:none;
-}
+    display: none;}
 
 /* Brendan - Hiding owner change in library creation */
 #MainCopy_ctl01_OwnerPanel {
-	display:none;
-}
+    display: none;}
 
 /*Brendan - Hiding Add event button to event list */
 #MainCopy_ctl01_AddEvent_CSSHyperLink1 {
-	display:none;
-}
+    display: none;}
 
 /* Brendan - Adding BG image to Getting started*/
 .gettingstarted .Content {
-	background-image:url(http://www.nten.org/sites/default/files/13ntccongregation3_0.jpg);
-	background-position:0 0;
-	background-repeat:repeat-x;
-}
+    background-image: url(http://www.nten.org/sites/default/files/13ntccongregation3_0.jpg);
+    background-position: 0 0;
+    background-repeat: repeat-x;}
 
 /* Brendan - Hiding Printer friendly button */
 #PrinterFriendly {
-	display:none;
-}
+    display: none;}
 
 /*Brendan - Removing registration dates from event creation */
 #MainCopy_ctl01_RegistrationSettingsDiv {
-	display:none;
-}
+    display: none;}
 
 /*Brendan fixing h2 colors */
 h2 {
-	background-color:#9ecc3b;
-	color:#FFF;
-	text-indent:5px;
-	border:1px solid #9ecc3b;
-	-webkit-border-top-left-radius:5px;
-	-webkit-border-top-right-radius:5px;
-	-moz-border-radius-topleft:5px;
-	-moz-border-radius-topright:5px;
-	border-top-left-radius:5px;
-	border-top-right-radius:5px;
-	padding:7px 0 6px 10px;
-	font-weight:450;
-	font-size:108%;
-	font-family:Lucida Sans,sans-serif;
-}
+    background-color: #9ecc3b;
+    border: 1px solid #9ecc3b;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+    font-family: Lucida Sans,sans-serif;
+    font-size: 108%;
+    font-weight: 450;
+    padding: 7px 0 6px 10px;
+    text-indent: 5px;}
 
 /*Brendan Putting proper borders around HTML Content Boxes */
-.HLLandingControl div.HtmlContent,.HLLandingControl div.RSSReader {
-	border:1px solid #777;
-	border-top:0 solid #777;
-	background-color:#FFF;
-	margin-bottom:10px;
-}
+.HLLandingControl div.HtmlContent,
+.HLLandingControl div.RSSReader {
+    background-color:#FFF;
+    border:1px solid #777;
+    border-top:0 solid #777;
+    margin-bottom:10px;}
 
 /* Brendan - Attempt at mobile friendly site formatting - breaks if not using standard page format
 @media screen and (max-width: 960px) {
 .twocolumn, div#MPOuter, div.MPContentAreaHome, .MPContentAreaHome, div.onecolumn, #MPOuterMost {width:100% !important; float:none !important }
 }
- */
+*/
 #ButtonBarMenu {
-	margin-top:0;
-}
+    margin-top:0;}
 
 .profileControlSmall h2 {
-	width:500px!important;
-}
+    width:500px!important;}
 
 .profileControlSmall {
-	width:510px!important;
-}
+    width:510px!important;}
 
 .bodyBackground {
-	background-image:url(http://www.nten.org/sites/default/files/background.jpg);
-	background-repeat:repeat-x;
-	background-color:#FFF;
-}
+    background-image:url(http://www.nten.org/sites/default/files/background.jpg);
+    background-repeat:repeat-x;
+    background-color:#FFF;}
 
 /** Hide Border of Slide Deck **/
 .skin-slidedeck dl.slidedeck > dd {
-	border-right:0!important;
-	background:none!important;
-}
+    border-right:0!important;
+    background:none!important;}
 
 .skin-slidedeck {
-	background:none repeat scroll 0 0 transparent!important;
-	border:0 none!important;
-	box-shadow:none!important;
-	padding:0!important;
-}
+    background:none repeat scroll 0 0 transparent!important;
+    border:0 none!important;
+    box-shadow:none!important;
+    padding:0!important;}
 
 /** End of Hide Border of Slide Deck**/
 /** To remove the padding to the left and right of the slide deck so it is flush with the side of the website, using the below:**/
 .skin-slidedeck {
-	margin-left:10px;
-}
+    margin-left:10px;}
 
 /* Brendan - Change Library Folder browser H1's */
 .FolderView h1 {
-	background-color:#9ecc3b;
-	color:#FFF;
-	text-indent:10px;
-}
+    background-color:#9ecc3b;
+    color:#FFF;
+    text-indent:10px;}
 
 /* Brendan - Login Button Controls */
 .HLWelcome .Login a:link,.HLWelcome .Login a:visited {
-	color:#FFF;
-	font-weight:700;
-	font-size:16px;
-	font-variant:small-caps;
-	background:#9ecc3b;
-	padding:10px;
-	top:-30px;
-	position:relative;
-	border-radius:10px;
-	text-decoration:none;
-}
+    color:#FFF;
+    font-weight:700;
+    font-size:16px;
+    font-variant:small-caps;
+    background:#9ecc3b;
+    padding:10px;
+    top:-30px;
+    position:relative;
+    border-radius:10px;
+    text-decoration:none;}
 
 /* Brendan - Change Welcome box H1 Colors */
 #Welcome_Content h1 {
-	background-color:#FFF;
-	color:#ACCB4A;
-}
+    background-color:#FFF;
+    color:#ACCB4A;}
 
 #PageTitleH1 {
-	background-color:#9ecc3b;
-	color:#FFF;
-}
+    background-color:#9ecc3b;
+    color:#FFF;}
 
 /* Brendan - Moving search button (can't remember which) */
 #MainCopy_ctl03_WholeSearch {
-	float:right;
-	margin-right:10px;
-}
+    float:right;
+    margin-right:10px;}
 
 /* Brendan - Shift Blog post body down slightly to avoid button overlap */
 #MainCopy_ctl11_ContentPanel {
-	position:relative;
-	top:10px;
-}
+    position:relative;
+    top:10px;}
 
 .Section3 {
-	padding-left:5px;
-}
+    padding-left:5px;}
 
 /* Brendan - Centering Profile photos */
 #Welcome_Details_ProfilePic_0 {
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-}
+    display:block;
+    margin-left:auto;
+    margin-right:auto;}
 
 /* Brendan - Color border on community member header*/
 .drItemSubHeader {
-	border:1px solid #9ecc3b;
-}
+    border:1px solid #9ecc3b;}
 
 /* Brendan - Rounding Logo corners */
 #Logo img {
-	border:1px solid #fff;
-	border-radius:5px;
-	-moz-border-radius:5px;
-	-khtml-border-radius:5px;
-	-webkit-border-radius:5px;
-}
+    border:1px solid #fff;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -khtml-border-radius:5px;
+    -webkit-border-radius:5px;}
 
 /* Catherine - revised*/
 
 #MessageListContainer .MessageMenuList li:nth-child(5) a{
-font-weight:bold;
-}
-
-
-
-
-
-
-
-
+    font-weight:bold;}
 
 /*Brendan - Moving Create new library button to the right */
 #MainCopy_ctl09_CommunityButton_CSSLinkButton1 {
-	float:right;
-	top:10px;
-	right:10px;
-}
+    float:right;
+    top:10px;
+    right:10px;}
 
 /*Brendan - tweaking button non-hover color 8*/
 a.actionButton,#hl-csslinkbutton a.actionButton,a.actionButton {
-	background:#9ecc3b;
-	background-image:-moz-linear-gradient(center top,#439200,#439200);
-	color:#FFF;
-}
+    background:#9ecc3b;
+    background-image:-moz-linear-gradient(center top,#439200,#439200);
+    color:#FFF;}
 
 #MainCopy_ctl09_lnkPostMessage_CSSHyperLink1:hover {
-	background-image:-moz-linear-gradient(center top,#439200,#439200);
-	color:#EBEBEB;
-}
+    background-image:-moz-linear-gradient(center top,#439200,#439200);
+    color:#EBEBEB;}
 
 /* Catherine - change the hover color for all green buttons to dark green */
 a.actionButton:hover,#hl-csslinkbutton a.actionButton:hover {
-	background-color:#c4ee6f;
-	background-image:-moz-linear-gradient(center top,#c4ee6f,#c4ee6f);
-	color:#EBEBEB;
-}
+    background-color:#c4ee6f;
+    background-image:-moz-linear-gradient(center top,#c4ee6f,#c4ee6f);
+    color:#EBEBEB;}
 
-/*#hl-csslinkbutton {
-position:relative;
-float:right;
-clear:both;
-margin-right:10px;
-margin-top:10px;
-}*/
 /*Brendan - Removing unnecessary h2 in discussions tab*/
 #MainCopy_ctl09_divLastMsg {
-	display:none;
-}
+    display:none;}
 
 #MainCopy_ctl05_WholeSearch {
-	position:relative;
-	float:right;
-	clear:both;
-}
+    position:relative;
+    float:right;
+    clear:both;}
 
 /*Brendan - Attempt at coloring border of menu dropdowns */
 #ButtonBarMenu ul {
-	border:1px solid #03428E;
-}
+    border:1px solid #03428E;}
 
 level2 dynamic #MPButtonBar {
-	border:2px solid #03428E;
-}
+    border:2px solid #03428E;}
 
 li.level2 dynamic {
-	background-color:#95a3c8;
-}
+    background-color:#95a3c8;}
 
 /*Brendan - removing MenuBarUnderline */
 .MenuBarUnderline {
-	color:#FFF;
-	display:none;
-}
+    color:#FFF;
+    display:none;}
 
 #gallery,#galleriaDescContainerDIV {
-	display:none;
-}
+    display:none;}
 
 /*Brendan-Change color of code of conduct title*/
 h3 {
-	color:#777;
-}
+    color:#777;}
 
 /*Brendan - Moving Create event button in event tab to not float out in space */
 #MainCopy_ctl05_CommunityButton_CSSLinkButton1 {
-	position:relative;
-	float:right;
-	margin-top:20px;
-	left:224px;
-}
+    position:relative;
+    float:right;
+    margin-top:20px;
+    left:224px;}
 
 /*Brendan - Fix alignment of library entry button */
 #MainCopy_ctl05_CommunityButton_CSSLinkButton1 {
-	float:right;
-	margin-top:30px;
-	margin-right:-10px;
-}
+    float:right;
+    margin-top:30px;
+    margin-right:-10px;}
 
-/* Catherine - When users are logged out and go to Directory, the job titles in the search results appear twice
-.Directory .addressDiv{
-display: none;
-}*/
 /* Catherine - remove Blogs checkbox in Advanced Search */
 #MainCopy_ctl01_ProductList tr:nth-child(1) td:nth-child(2) {
-	display:none;
-} 
+    display:none;}
 
 /* Catherine - bottom margin for the Join Community button */
 #MainCopy_ctl09_ucPermissionJoin_lnkJoin_CSSLinkButton1 {
-	margin-bottom:10px;
-}
+    margin-bottom:10px;}
 
-.MPContentArea
-{
-    width: 100%;
-}
-.MPContentAreaHome
-{
-    width: 100%;
-}
-#MPimage
-{
-    min-height:150px;
-}
-#MPOuter 
-{
-    width: 100%;
-}
+.MPContentArea {
+    width: 100%;}
 
-#MPOuterMost
-{
+.MPContentAreaHome {
+    width: 100%;}
+
+#MPimage {
+    min-height:150px;}
+#MPOuter {
+    width: 100%;}
+
+#MPOuterMost {
     width: 100%;
-    max-width: 982px;
-    min-width: 450px;
-}
-#MPSlogan
-{
+    max-width: 982px;    min-width: 450px;}
+#MPSlogan {
     position:absolute;
     left:-10000px;
     top:auto;
     width:1px;
     height:1px;
-    overflow:hidden;
-}
-#MPSearchBlock
-{
+    overflow:hidden;}
+#MPSearchBlock {
     margin-top: 0em;
-    padding-top: 0em;
-}
-#MPSearchBlock table
-{
-    border-collapse:collapse;
-}
-#Logo, #LeftToLogo, #RightToLogo
-{
+    padding-top: 0em;}
+#MPSearchBlock table {
+    border-collapse:collapse;}
+
+#Logo,
+#LeftToLogo,
+#RightToLogo {
     min-height: 0px !important;
-    width: auto;
-}
-.HLLandingControl h2
-{
+    width: auto;}
+.HLLandingControl h2 {
     height: auto;
     text-align: center;
-    padding: 0.5em;
-}
-.HLLandingControl a
-{
-    font-size: 1em;
-}
-img
-{
+    padding: 0.5em;}
+.HLLandingControl a {
+    font-size: 1em;}
+img {
     max-width: 100%;
-    height: auto;
-}
-body
-{
+    height: auto;}
+body {
     font-family:  "Lucida Grande",Tahoma,"Lucida Sans Regular","Lucida Sans Unicode",Verdana,Arial,sans-serif;
-    line-height: 1.5;
-}
-#Logo img
-{
-    border: none;
-}
-@media reader
-{
-    #MPSlogan
-    {
-        display: inline;
-    }
-}
-#Logo
-{
+    line-height: 1.5;}
+#Logo img {
+    border: none;}
+
+#Logo {
     position: relative;
     top: -15px;
-    left: -5px;
-}
-.HLWelcomeHeader .Content
-{
+    left: -5px;}
+.HLWelcomeHeader .Content{
     margin-bottom: 0.3em;
-    padding: 0.3em;
-}
-.HLWelcome .UnreadMessages
-{
-    margin-top: 0px;
-}
-.HLWelcomeHeader .Welcome
-{
+    padding: 0.3em;}
+.HLWelcome .UnreadMessages{
+    margin-top: 0px;}
+.HLWelcomeHeader .Welcome{
     height: auto;
-    width: auto;
-}
-#MPAuxNav
-{
-    z-index: 100;
-}
-#ButtonBarMenu ul
-{
-    background-color: #03428E;
-}
-table
-{
+    width: auto;}
+#MPAuxNav{
+    z-index: 100;}
+#ButtonBarMenu ul{
+    background-color: #03428E;}
+table{
     border-collapse: separate; 
-    border-spacing: 1em;
-}
+    border-spacing: 1em;}
 #MPButtonBar {
-  height: 42px !important;
-}
+    height: 42px !important;}
 
-@media (min-width: 40rem)
-{
-    body
-    { 
-        font-size: 80%;
-    }
+@media (min-width: 40rem) {
+    body {
+        font-size: 80%;}
+}
+@media reader {
+    #MPSlogan { display: inline;}
 }
